@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	background-color: #111;
+	/*display: grid;*/
+	color: black;
+}
+
+
+body{
+	margin: 0;
+	background-color: #111;
+	/*display: grid;*/
+	color: white;
+}	
+
+	header{
+		
+		
+		background: #7FFFD4;
+		/*background-color: : #7FFFD4;*/
+		font-family: arial;
+		color: white;
+		padding: 5px 15px 0px 15px
+		margin:0;
+
+	}
+
+	header h1{
+		
+		margin: 0;
+		display: inline;
+
+	}
+
+
+		
+		
+		nav li{
+				color: white;
+				/*float left: text;*/
+				display: inline;
+				
+				/*grid-auto-rows: minmax(100px,auto)*/
+
+			}
+
+		nav ul{
+				margin: 0;
+				display: inline;
+
+				
+			}
+
+			nav ul li{
+				background: black;
+				/*display: inline-grid;*/
+				display: inline-block;/*horizonltal block layout */
+				list-style-type: none;/* removes the bullet point format from the list */
+				padding:  5px 10px;
+
+
+			}
+				nav ul li a{
+					color: white;
+				}
+
+			.reg_mssg{
+			grid-row: 40px;
+
+			font-size: 20px;
+		}
+		.form1{
+				/*display: inline:none;*/
+
+					color: white;
+					list-style-type: none;
+					
+				}	
+					.form1 ul{
+
+						list-style-type: none;
+					}
+					.form1 input{
+						min-width: 400px;
+					}
+					.form1 ul text{
+						float-left;
+					}
+				

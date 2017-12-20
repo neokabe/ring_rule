@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	background-color: #111;
+	display: grid;
+	color: white;
+}	
+
+	header{
+		
+		
+		background: #7FFFD4;
+		/*background-color: : #7FFFD4;*/
+		font-family: arial;
+		color: white;
+		padding: 15px 15px 15px 15px
+		margin:0;
+
+	}
+
+	header h1{
+		
+		margin: 0;
+		padding: 0;
+		display: inline;
+		
+		
+
+	}
+
+
+		header h1 a{text-decoration: none;
+
+		}
+
+			/*nav li{
+				color: black;
+				float left: text;
+				
+				grid-auto-rows: minmax(100px,auto)
+
+			}*/
+
+		nav ul{
+				margin: 0;
+				padding:  0 0 0 15px;
+				display: inline;
+				
+			}
+
+			nav ul li{
+				background: black;
+				/*display: inline-grid;*/
+				display: inline-block;/*horizonltal block layout */
+				list-style-type: none;/* removes the bullet point format from the list */
+				padding:  5px 10px;
+
+
+			}
+				nav ul li a{
+					color: ;
+				}
+
+		div.col{
+			/*display: inline grid;*/
+			/*float:text:left;*/
+			float:right;
+			color: white;
+			padding: 0 33%;
+			margin:0;
+			font-size: 50px;
+
+		}
+
+			div.row{
+				background-color: none;
+				display: inline-grid;
+				float:left;
+				color: white;
+				font-size: 50px;
+				/*grid-auto-rows: minmax(1000px,auto)*/
+				margin: 0;
+				padding: 0 35%
+				/*grid-row: padding:minmax(0 33%,auto);*/
+			}
+
+			/*div.col {
+				display: inline-grid;
+				background-color:grey;
+			float:text:left;
+			float:left;
+			color: white;
+			
+			font-size: 50px;
+			padding: 0 33%
+			}*/
+
+			div{
+
+					float left: text;
+					color: white;
+				}
+
+		a{
+
+			color: white;
+		}
+
+				/img{
+
+					/*grid-row-start: left;*/
+					
+					display: inline-block;
+					grid-auto-rows: minmax(100px,auto);
+					/*list-style-image: */
+					/*grid-auto-rows: 300px*/
+					/*flex-shrink: all;*/
+				}
+		blockquote{
+			font-weight: 1;
+			font-size: 35px;
+			}
+
+				.intro{
+					background-color: #7FFFD4;
+					box-sizing:auto;
+					display: inline-block;
+					padding: 20px;
+					font-size: 25px;
+					
+					color: green;
+
+
+						}
+
+		footer{
+			color: white;
+		}
+
+		
+
+				
+
