@@ -42,7 +42,7 @@ body{
 
 		nav ul{
 				margin: 0;
-				padding:  0 0 0 15px;
+				padding:   0 0 0 15px;
 				display: inline;
 				
 			}
@@ -56,16 +56,16 @@ body{
 
 
 			}
-				nav ul li a{
+				/*nav ul li a{
 					color: ;
-				}
+				}*/
 
 		div.col{
-			/*display: inline grid;*/
+			display: inline grid;
 			/*float:text:left;*/
 			float:right;
 			color: white;
-			padding: 0 33%;
+			padding: 1em;
 			margin:0;
 			font-size: 50px;
 
@@ -96,7 +96,7 @@ body{
 
 			div{
 
-					float left: text;
+					float right: text;
 					color: white;
 				}
 
@@ -126,6 +126,8 @@ body{
 					display: inline-block;
 					padding: 20px;
 					font-size: 25px;
+					border-radius: 10px;
+
 					
 					color: green;
 
