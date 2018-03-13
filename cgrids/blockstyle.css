@@ -98,6 +98,7 @@ body{
 
 					float right: text;
 					color: white;
+					background-color: none;
 				}
 
 		a{
@@ -117,7 +118,7 @@ body{
 				}
 		blockquote{
 			font-weight: 1;
-			font-size: 35px;
+			font-size: 15px;
 			}
 
 				.intro{
@@ -136,6 +137,7 @@ body{
 
 		footer{
 			color: white;
+			font-size: 15px;
 		}
 
 		

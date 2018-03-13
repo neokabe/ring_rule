@@ -20,9 +20,22 @@ padding: 1em;
 	/*justify-content: stretch;*/
 	/*align-items: stretch;*/
 }
-	.container div:nth-child(odd){
+	.container div.pic{
+		background: grey;
+
+
+	}
+
+	.container div.pic2{
 		background: grey;
 	}
+
+	.container div.pic6{
+		background: grey;
+			}
+	/*.container div:nth-child(odd){
+		background: grey;
+	}*/
 
 		div{
 			padding: 1em  ;
@@ -30,7 +43,7 @@ padding: 1em;
 
 		}
 
-		.pic1 {
+		.pic {
 		 padding: 1em ;
 		 /*align-self: start;*/
 		 
@@ -40,11 +53,7 @@ padding: 1em;
 		  grid-row: 4/6;
 		 
 		} 
-		.pic {
-		 padding: 1em ;
-
-		 
-		} 
+		
 	
 
 		.pic6{
