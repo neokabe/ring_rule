@@ -84,11 +84,11 @@
 					<div class="form1">
 
 					<ul> 
-						<li>Email</li> <li><input type="text" name="email">   </li>
+						<li class="email">Email</li> <li><input type="text" name="email">   </li>
 
-						<li>Name</li> <li><input type="text" name="first name"></li>
-						<li>password</li> <input type=password" name="password checked=""></li>
-						<li>Repeat password</li> <li> <input type="is= password" name="check_password"></li>
+						<li class="name">Name</li> <li><input type="text" name="first name"></li>
+						<li class="password">password</li> <input type=password" name="password checked=""></li>
+						<li class="">Repeat password</li> <li> <input type="is= password" name="check_password"></li>
 						<li>username</li> <li> <input type="username" name="userid"></li>
 
 					</ul><p>
@@ -111,18 +111,7 @@
 
 
 								
-									<script type="text/javascript">
-										
-										if(button("Next"== 1)){
-
-											link(person_id)
-
-										} else{
-
-											print("please agree to terms and conditions.")
-										}
-
-									</script>
+									
 
 
 
@@ -136,13 +125,40 @@
 
 
 		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		    <script src="j_query\jquery.js"></script>
+ <script src="j_query\jquery.js"></script>
 
 
 			
 
 			<!-- Latest compiled and minified JavaScript -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script >
+		$(document).ready(function(){{
+
+			$('#form1').fadeToggle(900).fadeToggle(900);	
+
+
+		}};
+	</script>
+
+			<script type="text/javascript">
+										$(document).ready(function(){
+
+			$('#email').fadeToggle(900).fadeToggle(900);	
+
+
+		};
+										if(button("Next"== 1)){
+
+											link(person_id)
+
+										} else{
+
+											print("please agree to terms and conditions.")
+										}
+
+									</script>
 
 		</body>
 </html>
