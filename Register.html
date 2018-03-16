@@ -81,12 +81,12 @@
 				
 
 					
-					<div class="form1">
+					<div id = "info1" class="form1">
 
 					<ul> 
-						<li class="email">Email</li> <li><input id ="field1" type="text" name="email">   </li>
+						<li class="email">Email<br><input id ="field1" type="text" name="email"></li> <!-- <li>   </li> -->
 
-						<li class="name">Name</li> <li><input id ="field2" type="text" name="first name"></li>
+						<li id ="field2" class="name">Name</li> <li><input  type="text" name="first name"></li>
 
 						<li class="password">password</li> <input id ="field3" type=password" name="password checked=""></li>
 
@@ -98,9 +98,9 @@
 					</p></div>	
 					
 
-					<button> <a href="person_id">Next  </button><br>
+					<button id ="field_btn"> <a href="person_id">Next</button><br>
 
-						<section><input type="checkbox" name="terms.html"> <a href="terms.html"> agree to terms and conditions</a> </section><br>
+						<section id = "last"><input type="checkbox" name="terms.html"> <a href="terms.html"> agree to terms and conditions</a> </section><br>
 
 						 <input type="submit" value="Submit">
 
@@ -125,18 +125,38 @@
 
 
 
-
+			<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
- <script src="j_query\jquery.js"></script>
+	 <script src="j_query\jquery.js"></script>
 
 
-			
+		<script type="text/javascript">
+			$(document).ready(function(){
 
-			<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+				$("#info1").hide();
+				// $("class= form1").show(5000).hide();
+				$("#field_btn").on("click", function(){
+					$();
+					$("#field1").slideToggle(500);
 
-	<script >
+				})
+
+				$("#last").hide();
+
+
+			})
+
+
+
+		</script>
+
+
+
+
+
+	<!-- <script >
 		$(document).ready(function(){{
 
 			$('#form1').fadeToggle(900).fadeToggle(900);	
@@ -162,6 +182,13 @@
 										}
 
 									</script>
+ -->
+
+
+
+
+
+
 
 		</body>
 </html>
