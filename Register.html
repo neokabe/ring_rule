@@ -21,7 +21,7 @@
 </head>
 		<body>
 
-			<header class= "navbar-inverse" role="banner">
+<header class= "navbar-inverse" role="banner">
 				<div clas = "container-fluid">
 						<nav class="navbar navbar-inverse">
 						  <!--<div class="container-fluid">-->
@@ -83,10 +83,10 @@
 					
 					<div id = "info1" class="form1">
 
-					<ul> 
+					<ul class = "list"> 
 						<li class="email">Email<br><input id ="field1" type="text" name="email"></li> <!-- <li>   </li> -->
 
-						<li id ="field2" class="name">Name<br> <input  type="text" name="first name"></li> <!-- <li></li> -->
+						<li  class="name">Name<br> <input id ="field2"type="text" name="first name"></li> <!-- <li></li> -->
 
 						<li class="password">password<br><input id ="field3" type=password" name="password checked=""><!-- </li> </li> -->
 
@@ -98,13 +98,13 @@
 					</p></div>	
 					
 
-					<button id ="field_btn"> <a href="person_id">Next</button><br>
+					<button class ="ok" id ="field_btn"> <a href="person_id">Next</button><br>
 
-						<section id = "last"><input type="checkbox" name="terms.html"> <a href="terms.html"> agree to terms and conditions</a> </section><br>
+						<section id = "last"><input type="checkbox" name="terms.html"> <a href="terms.html"> agree to terms and conditions</a> <br>
 
 						 <input type="submit" value="Submit">
 
-
+						 </section>
 
 
 				</center>
@@ -135,30 +135,46 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 
-				$("#info1").hide();
+				$(".list").hide();
 				$("#last").hide();
 				
 				$("#field_btn").on("click", function(){
-					 $('.form1').show(900);
-					
-						$
+					 $('.list').show(900);
+					 
+					if($(this).is('clicked field_btn')){
+					$('#last').show(500);
+
+
+				 }
+						
 				})
 
-				// $("#field_btn").on("click", function(){
-				// 	 for(i=0; i<= $("#info1").last(); i++){
 
-				// 			$('.form1')eq(i).slideToggle(500);
-				// 		} 
+			});
 
 
+			// 	<script type="text/javascript">
+			// 	$(document).ready(function(){
 
-					 // 	$(".form1.email").slideToggle(500);
+			// 	$(".list").hide();
+			// 	$("#last").hide();
+
+			// 	$("#field_btn").on("click", function(){
+
+			// 		 for(i=0; i<= $(".list").length().last(); i++){
+
+			// 		$('list').find('li').slideToggle(500);
+			// 			})
+
+			// 			// .eq(i)
+
+			// 		 // 	$(".form1.email").slideToggle(500);
 							
-						// i++;
-				// })
+			// 			// i++;
+			// 	})
 
-
-			})
+			// })
+			
 
 
 
@@ -184,4 +200,4 @@
 
 
 		</body>
-</html>
+</html> 
