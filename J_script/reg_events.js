@@ -11,7 +11,7 @@ var = press2 = document.getElementByType("submit")
 
 
 
-li.list{
+document.ready li.list(){
 
 
 }

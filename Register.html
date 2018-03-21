@@ -98,7 +98,9 @@
 					</p></div>	
 					
 
-					<button class ="ok" id ="field_btn"> <a href="person_id">Next</button><br>
+					<!-- <button class ="ok" id ="field_btn"> <a href="person_id">Next</button><br> -->
+						<center><a id= "person_id" href="#" class="btn field_btn btn-info">Next</a></center>
+
 
 						<section id = "last"><input type="checkbox" name="terms.html"> <a href="terms.html"> agree to terms and conditions</a> <br>
 
@@ -138,7 +140,7 @@
 				$(".list").hide();
 				$("#last").hide();
 				
-				$("#field_btn").on("click", function(){
+				$("#person_id").on("click", function(){
 					 $('.list').show(900);
 					 
 					if($(this).is('clicked field_btn')){
