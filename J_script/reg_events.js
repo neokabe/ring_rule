@@ -6,7 +6,7 @@
 
 var press1 = document.getElementById("field_btn");
 var sec = document.getElementById("last");
-var = press2 = document.getElementByType("submit")
+var = press2 = document.getElementById("submit")
 var = checkFields = document.getElementById("field5");
 
 
@@ -17,13 +17,16 @@ var = checkFields = document.getElementById("field5");
 // }
 
  function reveal(){
- 	field5.input(!=="");
- 	alert("done");
- 	sec.show(500);
+ 	// field5.input(!=="");
+ 	// alert("done");
+ 	// sec.show(500);
+ 	var put = field5.value;
+ 	console.log(put)
  }
 
 press2.addEventListener("input", reveal )
   function reveal()
+
 )
 
 
