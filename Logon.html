@@ -8,6 +8,8 @@
 		<!-- Optional theme -->
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+			<link rel="stylesheet" href="cgrids\sign.css">
+
 		<title> Digifolio</title>
 
 		<link rel="stylesheet" type="text/css" href="cgrids\blockstyle.css">
@@ -69,12 +71,34 @@
 			</header>
 
 
+							<form action="#">
+				  
+				  <fieldset>
+				    
+				    <legend>Sign In</legend>
+				    
+				    <label for="username" class="vhide">Username</label>
+				    <input id="username" name="username" type="text" placeholder="Username" required minlength="2">
+				    
+				    <label for="password" class="vhide">Password</label>
+				    <input id="password" name="password" type="text" placeholder="Password" required minlength="6">
+				    
+				    <input type="checkbox" name="remember" id="remember" class="vhide">
+				    <label for="remember">
+				      <i class="octicon octicon-check"></i> Remember all the things
+				    </label>
+				      
+				        
+				    <button class="signin">Sign in</button>
+				    
+				  </fieldset>
+				  
+				</form>
+					<!-- top sign in by form origianlly by Captain Anonymous -->
 
 
 
-
-
-					<div class="form2">
+				<!-- 	<div class="form2">
 						<center>
 					<ul>	
 					<li>Username</li> <li> <input type="username" name="userid"></li>
@@ -85,7 +109,7 @@
 						</div>
 
 
-						<center><a href="#" class="btn btn-info">Log in</a></center>
+						<center><a href="#" class="btn btn-info">Log in</a></center> -->
 
 
 
@@ -104,7 +128,7 @@
 			<!-- Latest compiled and minified JavaScript -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-
+			<script src="J_script\signregx.js"></script>
 
 	</body>
 </html>
