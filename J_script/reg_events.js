@@ -22,12 +22,15 @@ var = checkFields = document.getElementById("field5");
  	// sec.show(500);
  	var put = field5.value;
  	console.log(put)
+ 	if (put 1== 0 ){
+ 		press2.show;
+ 	};
  }
 
 press2.addEventListener("input", reveal )
   function reveal()
 
-)
+
 
 
 
