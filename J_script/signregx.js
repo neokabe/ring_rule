@@ -1,5 +1,5 @@
 function checkname(){
-    alert()
+    alert("2its checked!");
 };
 function checkpassword(){
     
