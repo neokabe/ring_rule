@@ -1,8 +1,8 @@
-<php
+<?php
 	include 'header.php';
 ?>
 
-	<body>
+	
 
 
 		This website is made for individuals who wish to display their talent or skill set to the wider creative community and in order to spur collaboration between others. <br>

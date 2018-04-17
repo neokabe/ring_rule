@@ -35,8 +35,8 @@
 						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						      <ul class="nav navbar-nav">
 						        <li class="active"><a href="#">All <span class="sr-only">(current)</span></a></li>
-						        <li><a href="Register.html"> Register</a></li>
-								<li><a href="Logon.html">Sign in</a></li>
+						        <li><a href="Register.php"> Register</a></li>
+								<li><a href="Logon.php">Sign in</a></li>
 								<li><a href="about.php">About</a></li>
 								<li><a href="contact_us.php">Contact</a></li>
 
