@@ -37,8 +37,8 @@
 						        <li class="active"><a href="#">All <span class="sr-only">(current)</span></a></li>
 						        <li><a href="Register.html"> Register</a></li>
 								<li><a href="Logon.html">Sign in</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact_us.html">Contact</a></li>
+								<li><a href="about.php">About</a></li>
+								<li><a href="contact_us.php">Contact</a></li>
 
 
 
