@@ -1,5 +1,5 @@
 <?php
-	include 'header.php';
+	include 'header';
 ?>
 
 
@@ -32,7 +32,7 @@
 						<center><a id= "field_btn" href="#" class="btn btn-info">Next</a></center> <br>
 
 
-						<section id = "last"><input type="checkbox" name="terms.html"> <a href="terms.html"> agree to terms and conditions</a> <br>
+						<section id = "last"><input type="checkbox" name="terms.php"> <a href="terms.php"> agree to terms and conditions</a> <br>
 
 						 <input id=
 						 "submit" type="submit" value="Submit">
