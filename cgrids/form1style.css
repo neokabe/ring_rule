@@ -81,6 +81,7 @@ body{
 						list-style-type: none;
 					}
 					.form1 input{
+						color: black;
 						min-width: 400px;
 					}
 					.form1 ul text{
