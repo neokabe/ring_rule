@@ -28,22 +28,7 @@
 		<br>
 		For terms and conditions click the link below
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		    <script src="j_query\jquery.js"></script>
+<?php
 
-
-			
-
-			<!-- Latest compiled and minified JavaScript -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-
-	</body>
-</html>
+	include 'footer.php';
+?>
