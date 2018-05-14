@@ -2,23 +2,26 @@
 	include 'header.php';
 ?>
 
-
+<link rel="stylesheet" type="text/css" href="cgrids\form1style.css">
 
 
 				<center><blockquote class="reg_mssg">Register now to turn your creativity into a  portfolio  </blockquote>
 				
 
 					
-					<div id = "info1" class="form1">
+					<div id = "info1" Method='POST'class="form1">
 
 					<ul class = "list"> 
-						<li class="email">Email<br><input id ="field1" type="text" name="email"></li> <!-- <li>   </li> -->
+						
 
-						<li  class="name">Name<br> <input id ="field2" type="text" name="first name"></li> <!-- <li></li> -->
+						<li  class="name">Name<br> <input id ="field2" type="text" name="first name" placeholder="First name"></li> <!-- <li></li> -->
 
-						<li class= "user">Username<br> <input id ="field3" type="username" name="userid"></li> <!-- <li> </li> -->
+						<li class="email">Email<br><input id ="field1" type="text" name="email" placeholder="E-mail"></li>
+						<!-- <li>   </li> --> 
 
-						<li class="password">Password<br><input id ="field4" type="text" name="password" checked="yes"><!-- </li> </li> -->
+						<li class= "user">Username<br> <input id ="field3" type="username" name="userid" placeholder="Username"></li> <!-- <li> </li> -->
+
+						<li class="password">Password<br><input id ="field4" type="text" name="password" placeholder="Password" required autocomplete="off" required minlength="6"><!-- </li> </li> -->
 
 						<li class="passcheck">Repeat password<br><input id ="field5" type="is= password" name="check_password"><!-- </li> <li> --> </li>
 
