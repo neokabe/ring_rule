@@ -6,7 +6,7 @@
 
 						<!-- top sign in by form origianlly by Captain Anonymous ON CODE PEN -->
 
-							<centre><form action="#">
+							<centre><form  method ='POST'action="#">
 				  
 				  <fieldset>
 				    
