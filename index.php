@@ -44,7 +44,7 @@
 
 				<center> <div class="motto">Let your creativity do the talking...  </div><br>
 
-					<div class="intro"><a href="Register.html"> Register now</a></div></center>
+					<div class="intro"><a href="Register.php"> Register now</a></div></center>
 				<!-- </div> -->
 				<div class ="row"> testament</div><br>
 			
