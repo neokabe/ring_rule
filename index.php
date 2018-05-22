@@ -3,12 +3,12 @@
 
 ?>
 		
-
+		<link rel="stylesheet" type="text/css" href="cgrids/main-slide.css">
 
 
 
 		<div class="container">
-				<h1></h1>
+				<h1>Wecome to Creatorio </h1>
 
 			<div class="slider-outer">
 
@@ -17,12 +17,11 @@
 						<div class="slider-inner">
 							<img src="imgflies/pex-cat.jpg" class="active">
 							<img src="imgfiles/body-mesh.png">
-							<img src="imgfiles/body-mesh.png">
-							<img src="imgfiles/body-mesh.png">
-							<img src="imgfiles/body-mesh.png">
-							<img src="">
-							<video src="vids/ball-320.mp4"></video>
-						
+							<!--<video src="vids/ball-3260.mp4"></video>-->
+							<img src="imgfiles/pex-flying.png">
+							<img src="imgfiles/pex-type.jpeg">
+							<img src="imgfiles/pex-voice.jpeg">
+
 						</div>
 
 
