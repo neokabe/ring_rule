@@ -7,7 +7,53 @@
 
 
 
-			<div class="container">
+		<div class="container">
+				<h1></h1>
+
+			<div class="slider-outer">
+
+				<img src="imgflies/arrow-left.pgn" class="prev" alt="Prev">
+
+						<div class="slider-inner">
+							<img src="imgflies/pex-cat.jpg" class="active">
+							<img src="imgfiles/body-mesh.png">
+							<img src="imgfiles/body-mesh.png">
+							<img src="imgfiles/body-mesh.png">
+							<img src="imgfiles/body-mesh.png">
+							<img src="">
+							<video src="vids/ball-320.mp4"></video>
+						
+						</div>
+
+
+
+				<img src="imgflies/arrow-right.pgn" class="next" alt="Next">
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!--! remove images belot up the 'motoo class'   -->
+
+
 				<!-- <div class=box> -->
 				<div class="notcol">Art</div>
 				<div class="pic">
@@ -60,8 +106,8 @@
 
 
 		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		 
-		 
+
+
 		 <?php
 
 		 include 'footer.php';
