@@ -46,7 +46,7 @@
 
 					<div class="intro"><a href="Register.php"> Register now</a></div></center>
 				<!-- </div> -->
-				<div class ="row"> testament</div><br>
+				<div class ="row"> </div><br>
 			
 			<footer>(c) 2013 Digiport all rights reserved </footer>
 			 </div>
@@ -60,7 +60,16 @@
 
 
 		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		    <script src="j_query\jquery.js"></script>
+		 
+		 
+		 <?php
+
+		 include 'footer.php';
+
+		 ?>
+		    <script src ="j_query/main.js"></script>
+
+		    
 
 
 			<script>
@@ -77,9 +86,7 @@
 
 			</script>
 
-			<!-- Latest compiled and minified JavaScript -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+			
 			
 
 

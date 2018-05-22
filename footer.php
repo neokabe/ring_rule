@@ -1,7 +1,7 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		    <script src="j_query\jquery.js"></script>
+		    <script src="j_query/jquery.js"></script>
 
 
 			
