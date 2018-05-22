@@ -15,12 +15,12 @@
 				<img src="imgflies/arrow-left.pgn" class="prev" alt="Prev">
 
 						<div class="slider-inner">
-							<img src="imgflies/pex-cat.jpg" class="active">
+							<img src="imgfiles/pex-cat.png" class="active">
 							<img src="imgfiles/body-mesh.png">
 							<!--<video src="vids/ball-3260.mp4"></video>-->
 							<img src="imgfiles/pex-flying.png">
-							<img src="imgfiles/pex-type.jpeg">
-							<img src="imgfiles/pex-voice.jpeg">
+							<img src="imgfiles/pex-type.png">
+							<img src="imgfiles/pex-voice.png">
 
 						</div>
 
