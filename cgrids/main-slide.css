@@ -41,6 +41,7 @@ h1{
 	display: inline-block;
 }
 .prev,.next{
+	font-size: 14px;
 	float: left;
 	margin-top: 130px;
 	cursor: pointer;
@@ -53,6 +54,6 @@ h1{
 
 .next{
 	position: relative;
-	margin-right: -45px;
+	margin-left: -45px;
 	z-index: 100;
 }

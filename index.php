@@ -12,7 +12,7 @@
 
 			<div class="slider-outer">
 
-				<img src="imgflies/arrow-left.pgn" class="prev" alt="Prev">
+				<img src="imgflies/arrow-left.png" class="prev" alt="Prev">
 
 						<div class="slider-inner">
 							<img src="imgfiles/pex-cat.png" class="active">
@@ -26,7 +26,7 @@
 
 
 
-				<img src="imgflies/arrow-right.pgn" class="next" alt="Next">
+				<img src="imgflies/arrow-right.png" class="next" alt="Next">
 
 			</div>
 
