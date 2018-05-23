@@ -4,8 +4,39 @@ h1{
 	font-family: arial;
 	color: white;
 	font-size: 60px;
+
+	text-align: centre;
 }
 
-.container.slider-inner{
+.container{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	background:#2333;
+	width: 980px;
+	margin: 40px;
+	overflow: auto;
+}
+
+
+
+.slider-inner{
 	background-color: #a6a6a6;
+	width: 980px;
+	height: 627px;
+	position:relative;
+	overflow: hidden;
+	float: left;
+	padding: 3px;
+	border: #666 solid 1px;
 } 
+
+.slider-inner img{
+	display: none
+	width 980px;
+	height: 627px;
+
+}
+.slider-inner img.active{
+	display: inline-block;
+}
