@@ -18,7 +18,7 @@
 							<img src="imgfiles/pex-cat.png" class="active">
 							<img src="imgfiles/body-mesh.png">
 							<!--<video src="vids/ball-3260.mp4"></video>-->
-							<img src="imgfiles/pex-flying.png">
+							<img src="imgfiles/pex-ani.png">
 							<img src="imgfiles/pex-type.png">
 							<img src="imgfiles/pex-voice.png">
 
