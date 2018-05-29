@@ -18,6 +18,11 @@ h1{
 	overflow: auto;
 }
 
+.slider-outer{
+	width: 985px;
+	height: 628px;
+
+}
 
 
 .slider-inner{
