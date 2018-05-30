@@ -32,7 +32,7 @@
 					
 
 					<!-- <button class ="ok" id ="field_btn"> <a href="person_id">Next</button><br> -->
-						<center><a id= "field_btn" href="#" class="btn btn-info">Next</a></center> <br>
+						<center><a id= "field" href="#" class="btn btn-info">Next</a></center> <br>
 
 
 						<section id = "last"><input type="checkbox" name="terms.php"> <a href="terms.php"> agree to terms and conditions</a> <br>
@@ -74,7 +74,7 @@
 				$(".list").hide();
 				$("#last").hide();
 				
-				$("#field_btn").on("click", function(){
+				$("#field").on("click", function(){
 					 $('.list').show(900);
 					 
 					if($(this).is('clicked field_btn')){
