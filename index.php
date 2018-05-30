@@ -112,35 +112,6 @@
 		 include 'footer.php';
 
 		 ?>
-		    <script src ="j_query/main.js"></script>
-
 		    
 
-
-			<script>
-				$(function() {
-
-
-					$('#pic').click(function() {
-  						$('html,body').animate({
-    					scrollTop: $(".second").offset().top},
-    						'slow');
-
-					});
-			
-
-			</script>
-
-			
-			
-
-
-
-
-
-		</body>
-
-
-
-
-</html>
+		    
