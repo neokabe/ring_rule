@@ -55,26 +55,20 @@
 
 
 
+<?php
+	include "footer.php";
 
-
-		<footer>(c) 2013 Digifoilio </footer>
-
-
-
-			<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	 <script src="j_query\jquery.js"></script>
-
-
+?>
+<!-- <script src ="J_script/reg_events.js"></script> -->
+			
+<!-- 
 		<script type="text/javascript">
 			$(document).ready(function(){
 
 				$(".list").hide();
 				$("#last").hide();
 				
-				$("#field").on("click", function(){
+				$("#field_btn").on("click", function(){
 					 $('.list').show(900);
 					 
 					if($(this).is('clicked field_btn')){
@@ -88,34 +82,34 @@
 
 			});
 
+</script> -->
 
 
+			 	<!-- <script type="text/javascript">
+				$(document).ready(function(){
 
-			// 	<script type="text/javascript">
-			// 	$(document).ready(function(){
+				$(".list").hide();
+				$("#last").hide();
 
-			// 	$(".list").hide();
-			// 	$("#last").hide();
+				$("#field_btn").on("click", function(){
 
-			// 	$("#field_btn").on("click", function(){
+					 for(i=0; i<= $(".list").length().last(); i++){
 
-			// 		 for(i=0; i<= $(".list").length().last(); i++){
+					$('list').find('li').slideToggle(500);
+						})
 
-			// 		$('list').find('li').slideToggle(500);
-			// 			})
+						.eq(i)
 
-			// 			// .eq(i)
-
-			// 		 // 	$(".form1.email").slideToggle(500);
+					 	$(".form1.email").slideToggle(500);
 							
-			// 			// i++;
-			// 	})
+						i++;
+				})
 
-			// })
+			})
 
-		</script>
+		 </script>  -->
 
-			<script src ="J_script/reg_events.js"></script>
+			
 						<!-- 	<script type="text/javascript"></script>
 							if(button("Next"== 1)){
 
@@ -127,13 +121,3 @@
 										}
 
 									</script> -->
- 
-
-
-
-
-
-
-
-		</body>
-</html> 
