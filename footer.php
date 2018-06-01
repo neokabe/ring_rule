@@ -2,8 +2,10 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		    <script src="j_query/jquery.js"></script>
+		    
+		    <script src ="j_query/main.js"></script>
 
-
+		    <footer>(c) 2013 Digiport all rights reserved </footer>
 			
 
 			<!-- Latest compiled and minified JavaScript -->

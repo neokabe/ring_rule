@@ -7,7 +7,7 @@
 
 
 
-		<div class="container">
+		<center><div class="container">
 				<h1>Wecome to Creatorio </h1>
 
 			<div class="slider-outer">
@@ -29,6 +29,7 @@
 				<img src="imgfiles/arrow-right.png" class="next" alt="Next">
 
 			</div>
+		</div></center>
 
 
 
@@ -93,8 +94,8 @@
 				<!-- </div> -->
 				<div class ="row"> </div><br>
 			
-			<footer>(c) 2013 Digiport all rights reserved </footer>
-			 </div>
+			
+			 
 			
 
 
