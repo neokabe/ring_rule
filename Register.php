@@ -32,13 +32,12 @@
 					
 
 					<!-- <button class ="ok" id ="field_btn"> <a href="person_id">Next</button><br> -->
-						<center><a id= "field" href="#" class="btn btn-info">Next</a></center> <br>
+					<!-- <center><a id= "field" href="#" class="btn btn-info">Next</a></center> <br>
+ -->
 
+						<section id = "last"><input type="checkbox" name="terms.php"> <a href="terms.php"> Agree to terms and conditions</a> <br>
 
-						<section id = "last"><input type="checkbox" name="terms.php"> <a href="terms.php"> agree to terms and conditions</a> <br>
-
-						 <input id=
-						 "submit" type="submit" value="Submit">
+						 <center><a  href="#" class="btn btn-info" type="submit" name="submit">Submit</a></center> <br>
 
 						 </section>
 
