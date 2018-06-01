@@ -19,11 +19,11 @@
 						<li class="email">Email<br><input id ="field1" type="text" name="email" placeholder="E-mail"></li>
 						<!-- <li>   </li> --> 
 
-						<li class= "user">Username<br> <input id ="field3" type="username" name="userid" placeholder="Username"></li> <!-- <li> </li> -->
+						<li class= "user">Username<br> <input id ="field3" type="text" name="userid" placeholder="Username"></li> <!-- <li> </li> -->
 
-						<li class="password">Password<br><input id ="field4" type="text" name="password" placeholder="Password" required autocomplete="off" required minlength="6"><!-- </li> </li> -->
+						<li class="password">Password<br><input id ="field4" type="password" name="password" placeholder="Password" required autocomplete="off" required minlength="6"><!-- </li> </li> -->
 
-						<li class="passcheck">Repeat password<br><input id ="field5" type="is= password" name="check_password"><!-- </li> <li> --> </li>
+						<!-- <li class="passcheck">Repeat password<br><input id ="field5" type="is= password" name="check_password"> --><!-- </li> <li> --> </li>
 
 						
 
