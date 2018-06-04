@@ -30,7 +30,9 @@
 					</ul><p>
 					</p>
 
-						<section id = "last"><input type="checkbox" name="terms.php"> <a href="terms.php"> Agree to terms and conditions</a> <br>
+						<section id = "last">
+						<input type="checkbox" name="terms.php"><label>Agree to terms and conditions</label>
+						 <a href="terms.php"> </a> <br>
 
 						
 						 <button class="btn btn-info" type="submit" name="submit">Submit</button></section>
