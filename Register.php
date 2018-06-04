@@ -9,19 +9,21 @@
 				
 
 					
-					<div id = "info1" Method='POST'class="form1">
+					<div id = "info1" Method='POST'class="form1" action = "includes/signup.inc.php">
 
 					<ul class = "list"> 
 						
 
-						<li  class="name">Name<br> <input id ="field2" type="text" name="first name" placeholder="First name"></li> <!-- <li></li> -->
+						<li  class="name">First Name<br> <input id ="field2" type="text" name="first" placeholder="First name"></li> <!-- <li></li> -->
+
+						<li  class="name">Last Name<br> <input id ="field5" type="text" name="last" placeholder="Last name"></li>
 
 						<li class="email">Email<br><input id ="field1" type="text" name="email" placeholder="E-mail"></li>
 						<!-- <li>   </li> --> 
 
-						<li class= "user">Username<br> <input id ="field3" type="text" name="userid" placeholder="Username"></li> <!-- <li> </li> -->
+						<li class= "user">Username<br> <input id ="field3" type="text" name="uid" placeholder="Username"></li> <!-- <li> </li> -->
 
-						<li class="password">Password<br><input id ="field4" type="password" name="password" placeholder="Password" required autocomplete="off" required minlength="6"><!-- </li> </li> -->
+						<li class="password">Password<br><input id ="field4" type="password" name="pwd" placeholder="Password" required autocomplete="off" required minlength="6"><!-- </li> </li> -->
 
 						<!-- <li class="passcheck">Repeat password<br><input id ="field5" type="is= password" name="check_password"> --><!-- </li> <li> --> </li>
 
