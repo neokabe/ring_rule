@@ -21,12 +21,12 @@ if (isset($_POST['submit'])) {
 		// Check if input characters are valid
 
 		if (!preg_match("/^[a-zA-Z]*$/", $first) || !preg_match("/^[a-zA-Z]*$/", $last)) {
-			header("Location: ../Register.php?signup=invalid")
+			header("Location: ../Register.php?signup=invalid");
 			exit();
 		} else {
 			// Check if email is valid
 			if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-				header("Location: ../Register.php?signup=email")
+				header("Location: ../Register.php?signup=email");
 			exit();
 			} else {
 				//create template
