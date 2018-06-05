@@ -3,11 +3,57 @@
 
 ?>
 		
+		<link rel="stylesheet" type="text/css" href="cgrids/main-slide.css">
+
+
+
+		<center><div class="container">
+				<h1>Wecome to Creatorio </h1>
+
+			<div class="slider-outer">
+
+				<img src="imgfiles/arrow-left.png" class="prev" alt="Prev">
+
+						<div class="slider-inner">
+							<img src="imgfiles/pex-cat.png" class="active">
+							<img src="imgfiles/body-mesh.png">
+							<!--<video src="vids/ball-3260.mp4"></video>-->
+							<img src="imgfiles/pex-ani.png">
+							<img src="imgfiles/pex-type.png">
+							<img src="imgfiles/pex-voice.png">
+
+						</div>
+
+
+
+				<img src="imgfiles/arrow-right.png" class="next" alt="Next">
+
+			</div>
+		</div></center>
 
 
 
 
-			<div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!--! remove images belot up the 'motoo class'   -->
+
+
 				<!-- <div class=box> -->
 				<div class="notcol">Art</div>
 				<div class="pic">
@@ -46,10 +92,10 @@
 
 					<div class="intro"><a href="Register.php"> Register now</a></div></center>
 				<!-- </div> -->
-				<div class ="row"> testament</div><br>
+				<div class ="row"> </div><br>
 			
-			<footer>(c) 2013 Digiport all rights reserved </footer>
-			 </div>
+			
+			 
 			
 
 
@@ -60,35 +106,13 @@
 
 
 		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		    <script src="j_query\jquery.js"></script>
 
 
-			<script>
-				$(function() {
+		 <?php
 
+		 include 'footer.php';
 
-					$('#pic').click(function() {
-  						$('html,body').animate({
-    					scrollTop: $(".second").offset().top},
-    						'slow');
+		 ?>
+		    
 
-					});
-			
-
-			</script>
-
-			<!-- Latest compiled and minified JavaScript -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-			
-
-
-
-
-
-		</body>
-
-
-
-
-</html>
+		    

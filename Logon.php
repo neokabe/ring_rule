@@ -6,17 +6,17 @@
 			<link rel="stylesheet" type="text/css" href="cgrids\sign.css">
 						<!-- top sign in by form origianlly by Captain Anonymous ON CODE PEN -->
 
-							<centre><form  method ='POST'action="#">
+							<centre><form  method ='POST'action="includes/login.inc.php"">
 				  
-				  <fieldset>
+				  <!-- <fieldset> -->
 				    
 				    <legend>Sign In</legend>
 				    
 				    <label for="username" class="vhide">Username</label>
-				    <input id="username" name="username" type="text" placeholder="Username" required minlength="2">
+				    <input id="username" name="uid" type="text" placeholder="Username/ E-mail" required minlength="2">
 				    
 				    <label for="password" class="vhide">Password</label>
-				    <input id="password" name="password" type="password" placeholder="Password" required autocomplete="off" required minlength="6">
+				    <input id="password" name="pwd" type="password" placeholder="Password" required autocomplete="off" required minlength="6">
 				    
 				    <input type="checkbox" name="remember" id="remember" class="vhide"><br>
 				    <label for="remember">
@@ -26,7 +26,7 @@
 				        
 				    <button class="signin">Sign in</button>
 				    
-				  </fieldset>
+				  <!-- </fieldset> -->
 				  
 				</form></centre>
 					
