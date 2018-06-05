@@ -81,8 +81,10 @@ body{
 						list-style-type: none;
 					}
 					.form1 input{
+						padding: 10px;
 						color: black;
 						min-width: 400px;
+						min-height: 40px
 					}
 					.form1 ul text{
 						float-left;

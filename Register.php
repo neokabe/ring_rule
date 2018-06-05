@@ -12,16 +12,16 @@
 						<ul class = "list"> 
 						
 
-						<li  class="name">First Name<br> <input id ="field2" type="text" name="first" placeholder="First name"></li> <!-- <li></li> -->
+						<li  class="name"><br> <input type="text" name="first" placeholder="First name"></li> <!-- <li></li> -->
 
-						<li  class="name">Last Name<br> <input id ="field5" type="text" name="last" placeholder="Last name"></li>
+						<li  class="name"><br> <input type="text" name="last" placeholder="Last name"></li>
 
-						<li class="email">Email<br><input id ="field1" type="text" name="email" placeholder="E-mail"></li>
+						<li class="email"><br><input type="text" name="email" placeholder="E-mail"></li>
 						<!-- <li>   </li> --> 
 
-						<li class= "user">Username<br> <input id ="field3" type="text" name="uid" placeholder="Username" required minlength="2"></li> <!-- <li> </li> -->
+						<li class= "user"><br> <input type="text" name="uid" placeholder="Username" required minlength="2"></li> <!-- <li> </li> -->
 
-						<li class="password">Password<br><input id ="field4" type="password" name="pwd" placeholder="Password" required autocomplete="off" required minlength="6"><!-- </li> </li> -->
+						<li class="password"><br><input type="password" name="pwd" placeholder="Password" required autocomplete="off" required minlength="6"><!-- </li> </li> -->
 
 						 </li>
 
