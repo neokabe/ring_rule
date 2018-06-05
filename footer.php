@@ -1,17 +1,9 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<<<<<<< HEAD
-		     <script src="j_query/jquery.js"></script>
-
-		    <script src ="j_query/main.js"></script>
-=======
 		    <script src="j_query/jquery.js"></script>
-		    
-		    <script src ="j_query/main.js"></script>
 
-		    <footer>(c) 2013 Digiport all rights reserved </footer>
->>>>>>> 9d7d2e4ed528695b2603e8d48852b4db30241d6a
+		    <script src ="j_query/main.js"></script>
 			
 
 			<!-- Latest compiled and minified JavaScript -->
@@ -19,6 +11,5 @@
 			
 			<footer>(c) 2013 Digiport all rights reserved </footer>
 
-			<script src ="j_query/main.js"></script>
 	</body>
 </html>

@@ -10,9 +10,9 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 
-		
+		<link rel="stylesheet" type="text/css" href="cgrids/main-slide.css">
 
 	<title>Digifolio</title>
 	<link rel="stylesheet" type="text/css" href="cgrids\blockstyle.css">
@@ -22,7 +22,7 @@
 			<header class= "navbar-inverse" role="banner">
 				<div class = "container-fluid">
 						<nav class="navbar navbar-inverse">
-						  <!--<div class="container-fluid">-->
+						  <!-- <div class="container-fluid"> -->
 						    <!-- Brand and toggle get grouped for better mobile display -->
 						   <div class="navbar-header">
 						    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">

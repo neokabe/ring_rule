@@ -106,19 +106,19 @@ body{
 			color: white;
 		}
 
-				/img{
+				/*img{
 
 					/*grid-row-start: left;*/
 					
-					display: inline-block;
-					grid-auto-rows: minmax(100px,auto);
+					/*display: inline-block;
+					grid-auto-rows: minmax(100px,auto);*/
 					/*list-style-image: */
 					/*grid-auto-rows: 300px*/
 					/*flex-shrink: all;*/
-				}
+				}*/
 		blockquote{
 			font-weight: 1;
-			font-size: 15px;
+			font-size: 35px;
 			}
 
 				.intro{

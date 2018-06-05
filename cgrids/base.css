@@ -6,7 +6,6 @@ color: white;
 }
 
 header{
-background: red;
 padding: 1em;
 }
 .container {
@@ -15,7 +14,7 @@ padding: 1em;
 	margin: 0;
 	background-color: #111;
 	font-size: 50px;
-	grid-gap: 1em;
+	/*grid-gap: 1em;*/
 	/*grid-auto-rows: minmax(100px, auto);*/
 	/*justify-content: stretch;*/
 	/*align-items: stretch;*/

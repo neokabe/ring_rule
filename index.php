@@ -46,8 +46,7 @@
 
 
 
-
-
+			
 
 
 
@@ -55,6 +54,8 @@
 
 
 				<!-- <div class=box> -->
+
+					<!--
 				<div class="notcol">Art</div>
 				<div class="pic">
 					<img src="https://tag.ir/wp-content/uploads/2017/07/crow.jpg"> </div>
@@ -87,25 +88,25 @@
 				<div class="pic6">
 					<img src="https://d26oc3sg82pgk3.cloudfront.net/files/media/uploads/zinnia/2017/09/15/voiceoveracting.jpg.644x450_q100.jpg">
 				</div>
-
+				-->
 				<center> <div class="motto">Let your creativity do the talking...  </div><br>
 
 					<div class="intro"><a href="Register.php"> Register now</a></div></center>
 				<!-- </div> -->
 				<div class ="row"> </div><br>
+			<!--
 			
+			 </div>
 			
-			 
-			
 
 
 
-
+			 	-->
 
 				
 
 
-		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		
 
 
 		 <?php
@@ -116,3 +117,27 @@
 		    
 
 		    
+
+
+			<!-- <script>
+				$(function() {
+
+
+					$('#pic').click(function() {
+  						$('html,body').animate({
+    					scrollTop: $(".second").offset().top},
+    						'slow');
+
+					});
+			
+
+			</script> -->
+
+			
+			
+
+
+
+
+
+	

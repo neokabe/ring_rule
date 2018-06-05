@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* body code from base.css */
 
 body{
@@ -73,20 +72,13 @@ header{
 		}
 
 		/* end of block style sheet */
-=======
-
->>>>>>> 9d7d2e4ed528695b2603e8d48852b4db30241d6a
 
 h1{
 	font-family: arial;
 	color: white;
 	font-size: 60px;
 
-<<<<<<< HEAD
 	text-align:center;
-=======
-	text-align: centre;
->>>>>>> 9d7d2e4ed528695b2603e8d48852b4db30241d6a
 }
 
 .container{
@@ -94,31 +86,17 @@ h1{
 	font-size: 14px;
 	color: #fff;
 	background:#111;
-<<<<<<< HEAD
 	width: 1100px;
 	margin: 40px auto;
-=======
-	width: 980px;
-	margin: 40px;
->>>>>>> 9d7d2e4ed528695b2603e8d48852b4db30241d6a
 	overflow: auto;
 }
 
 .slider-outer{
-<<<<<<< HEAD
 	width: auto;
 	height: auto;
 
 }
 
-=======
-	width: 985px;
-	height: 628px;
-
-}
-
-
->>>>>>> 9d7d2e4ed528695b2603e8d48852b4db30241d6a
 .slider-inner{
 	background-color: #a6a6a6;
 	width: 980px;
@@ -126,11 +104,7 @@ h1{
 	position:relative;
 	overflow: hidden;
 	float: left;
-<<<<<<< HEAD
 	/*padding: 3px;*/
-=======
-	padding: 3px;
->>>>>>> 9d7d2e4ed528695b2603e8d48852b4db30241d6a
 	border: #666 solid 1px;
 } 
 
@@ -138,33 +112,22 @@ h1{
 	display: none
 	width 980px;
 	height: 627px;
-<<<<<<< HEAD
 	
-
-}
-.slider-inner img.on{
-	display: inline-grid;
-=======
 
 }
 .slider-inner img.active{
 	display: inline-block;
->>>>>>> 9d7d2e4ed528695b2603e8d48852b4db30241d6a
+
 }
 .prev,.next{
 	font-size: 14px;
 	float: left;
-<<<<<<< HEAD
 	margin-top: 300px;
-=======
-	margin-top: 130px;
->>>>>>> 9d7d2e4ed528695b2603e8d48852b4db30241d6a
 	cursor: pointer;
 }
 .prev{
 	position: relative;
 	margin-right: -45px;
-<<<<<<< HEAD
 	margin-left: -11px;
 	z-index: 100;
 }
@@ -176,16 +139,6 @@ h1{
 	z-index: 100;
 	margin-right: -30px;*/
 
-=======
-	margin-left: -30px;
-	z-index: 60;
-}
-
-.next{
-	/*position: relative;
-	margin-left: -45px;
-	z-index: 60;*/
->>>>>>> 9d7d2e4ed528695b2603e8d48852b4db30241d6a
 	position: relative;
 	margin-right: -45px;
 	z-index: 100;

@@ -216,16 +216,16 @@ input {
   font-weight: 700;
   text-transform: uppercase;
   background:#3D9970; /*$hib*/
-  border: 1px solid transparent;
+  /*border: 1px solid transparent;
   color: $bg;
-  padding: 0.5em 2em;
-  margin: 2em 0 0;
+  padding: 50px 10px;
+  margin: 20px 0 0;
   vertical-align: middle;
-  display: inline-grid;
+  display: inline-block;
   width: 50%;
   border-radius: 3px;
   opacity: 0.8;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease;*/
   
   &:hover {
     
