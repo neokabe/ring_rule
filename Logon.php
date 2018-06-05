@@ -6,27 +6,27 @@
 			<link rel="stylesheet" type="text/css" href="cgrids\sign.css">
 						<!-- top sign in by form origianlly by Captain Anonymous ON CODE PEN -->
 
-							<centre><form  method ='POST'action="#">
+				<centre><form  method ='POST'action="includes/login.inc.php">
 				  
-				  <fieldset>
+				  <!-- <fieldset> -->
 				    
-				    <legend>Sign In</legend>
+				   <center><legend>Sign In</legend></center>
 				    
-				    <label for="username" class="vhide">Username</label>
-				    <input id="username" name="username" type="text" placeholder="Username" required minlength="2">
+				    <p><label for="username" >Username</label>
+				    <input id="username" name="uid" type="text" placeholder="Username" required minlength="2">
 				    
-				    <label for="password" class="vhide">Password</label>
-				    <input id="password" name="password" type="password" placeholder="Password" required autocomplete="off" required minlength="6">
+				    <label for="password" >Password</label>
+				    <input id="password" name="pwd" type="password" placeholder="Password" required autocomplete="off" required minlength="6">
 				    
-				    <input type="checkbox" name="remember" id="remember" class="vhide"><br>
+				    <input type="checkbox" name="remember" id="remember"><br>
 				    <label for="remember">
-				      <i class="octicon octicon-check"></submit></i> 
+				      <i class="octicon octicon-check">Remember me?</i> 
 				    </label>Remember me?
 				      
 				        
-				    <button class="signin">Sign in</button>
+				    <button class="btn-info" name="submit" type="submit">Sign in</button>
 				    
-				  </fieldset>
+				  <!-- </fieldset> -->
 				  
 				</form></centre>
 					
