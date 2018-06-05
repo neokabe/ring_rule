@@ -51,83 +51,9 @@
 
 
 
-		<footer>(c) 2013 Digifoilio </footer>
+		
 
+<?php
+	include "footer.php";
 
-
-			<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	 <script src="j_query\jquery.js"></script>
-
-
-		<script type="text/javascript">
-			$(document).ready(function(){
-
-				$(".list").hide();
-				$("#last").hide();
-				
-				$("#field_btn").on("click", function(){
-					 $('.list').show(900);
-					 
-					if($(this).is('clicked field_btn')){
-					$('#last').show(500);
-
-
-				 }
-						
-				})
-
-
-			});
-
-
-
-
-			// 	<script type="text/javascript">
-			// 	$(document).ready(function(){
-
-			// 	$(".list").hide();
-			// 	$("#last").hide();
-
-			// 	$("#field_btn").on("click", function(){
-
-			// 		 for(i=0; i<= $(".list").length().last(); i++){
-
-			// 		$('list').find('li').slideToggle(500);
-			// 			})
-
-			// 			// .eq(i)
-
-			// 		 // 	$(".form1.email").slideToggle(500);
-							
-			// 			// i++;
-			// 	})
-
-			// })
-
-		</script>
-
-			<script src ="J_script/reg_events.js"></script>
-						<!-- 	<script type="text/javascript"></script>
-							if(button("Next"== 1)){
-
-											link(person_id)
-
-										} else{
-
-											print("please agree to terms and conditions.")
-										}
-
-									</script> -->
- 
-
-
-
-
-
-
-
-		</body>
-</html> 
+?>
