@@ -13,15 +13,15 @@
 				   <center><legend>Sign In</legend></center>
 				    
 				    <p><label for="username" >Username</label>
-				    <input id="username" name="uid" type="text" placeholder="Username" required minlength="2">
+				    <input id="username" name="uid" type="text" placeholder="Username /E-mail" required minlength="2"><br>
 				    
 				    <label for="password" >Password</label>
-				    <input id="password" name="pwd" type="password" placeholder="Password" required autocomplete="off" required minlength="6">
+				    <input id="password" name="pwd" type="password" placeholder="Password" required autocomplete="off" required minlength="6"></p>
 				    
-				    <input type="checkbox" name="remember" id="remember"><br>
+				    <input type="checkbox" name="remember" id="remember">
 				    <label for="remember">
 				      <i class="octicon octicon-check">Remember me?</i> 
-				    </label>Remember me?
+				    </label><br>
 				      
 				        
 				    <button class="btn-info" name="submit" type="submit">Sign in</button>
