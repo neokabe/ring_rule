@@ -6,8 +6,8 @@
 
 var press1 = document.getElementById("field_btn");
 var sec = document.getElementById("last");
-var = press2 = document.getElementById("submit")
-var = checkFields = document.getElementById("field5");
+var press2 = document.getElementById("submit")
+var checkFields = document.getElementById("field5");
 
 
 
