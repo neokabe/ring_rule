@@ -1,0 +1,145 @@
+/* body code from base.css */
+
+body{
+display: grid;
+background-color: #111;
+margin: 0;
+color: white;
+}
+
+/* end of base.css */
+/*header block quote and from block style.css */
+
+blockquote{
+			font-weight: 1;
+			font-size: 15px;
+			}
+
+				.intro{
+					background-color: #7FFFD4;
+					box-sizing:auto;
+					display: inline-block;
+					padding: 20px;
+					font-size: 25px;
+					border-radius: 10px;
+
+					
+					color: green;
+
+
+						}
+header{
+		
+		
+		background: #7FFFD4;
+		/*background-color: : #7FFFD4;*/
+		font-family: arial;
+		color: white;
+		padding: 15px 15px 15px 15px
+		margin:0;
+
+	}
+
+		header h1 a{
+			text-decoration: none;
+
+		}
+
+
+		nav ul{
+				margin: 0;
+				padding:   0 0 0 15px;
+				display: inline;
+				
+			}
+
+			nav ul li{
+				background: black;
+				/*display: inline-grid;*/
+				display: inline-block;/*horizonltal block layout */
+				list-style-type: none;/* removes the bullet point format from the list */
+				padding:  5px 10px;
+
+
+			}
+
+
+
+
+	footer{
+			color: white;
+			font-size: 15px;
+		}
+
+		/* end of block style sheet */
+
+h1{
+	font-family: arial;
+	color: white;
+	font-size: 60px;
+
+	text-align:center;
+}
+
+.container{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	background:#111;
+	width: 1100px;
+	margin: 40px auto;
+	overflow: auto;
+}
+
+.slider-outer{
+	width: auto;
+	height: auto;
+
+}
+
+.slider-inner{
+	background-color: #a6a6a6;
+	width: 980px;
+	height: 627px;
+	position:relative;
+	overflow: hidden;
+	float: left;
+	/*padding: 3px;*/
+	border: #666 solid 1px;
+} 
+
+.slider-inner img{
+	display: none
+	width 980px;
+	height: 627px;
+	
+
+}
+.slider-inner img.on{
+	display: inline-grid;
+}
+.prev,.next{
+	font-size: 14px;
+	float: left;
+	margin-top: 300px;
+	cursor: pointer;
+}
+.prev{
+	position: relative;
+	margin-right: -45px;
+	margin-left: -11px;
+	z-index: 100;
+}
+
+.next{
+	/*float: right;
+	position: relative;
+	margin-left: -30px;
+	z-index: 100;
+	margin-right: -30px;*/
+
+	position: relative;
+	margin-right: -45px;
+	z-index: 100;
+	margin-left: -45px;
+}
