@@ -2,7 +2,7 @@
 
 if (isset($_POST['submit'])) {
 
-	include_once 'dbh.inc.php';
+	include_once 'dhb.inc.php';
 
 	$first = $_POST['first'];
 	$last = $_POST['last'];
@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
 							mysqli_stmt_bind_param($stmt, "sssss", $first, $last, $email, $uid, $hashedPwd);
 							mysqli_stmt_execute($stmt);
 
-							header("Location: ../Register.php?signup=success");
+							header("Location: ../index.php?signup=success");
 							exit();
 						}
 
