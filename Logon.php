@@ -4,9 +4,10 @@
 ?>
 <!-- 
 			<link rel="stylesheet" type="text/css" href="cgrids\sign.css"> -->
+			<link rel="stylesheet" type="text/css" href="cgrids/form2style.css">
 						<!-- top sign in by form origianlly by Captain Anonymous ON CODE PEN -->
 
-				<centre><form  method ='POST'action="includes/login.inc.php">
+				<centre><form class= "form2"  method ='POST'action="includes/login.inc.php">
 				  
 				  <!-- <fieldset> -->
 				    

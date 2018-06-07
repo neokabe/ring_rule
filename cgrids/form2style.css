@@ -1,19 +1,51 @@
-
+.form2{
+	/*padding: 0, 50, 50, 50em;*/
+margin-left: 30em;
+margin-right: 30em ;
+}
 
 .form2 ul{
 
 	list-style-type: none;
 	
 }
+#username{
+margin-left: 25em ;
+margin-right: 25em ;
+align-content: center;	
+min-width: 30px;
+color: black;
+/*padding-left: 10px;*/
+color: black; 
+}
+
+#password{
+margin-left: 25em ;
+margin-right: 25em ;
+align-content: center;	
+min-width: 30px;
+color: black;
+/*padding-left: 1em;*/
+
+}
 
 .form2 input{
-min-width: 400px;
-color: black;
+	/*margin-left: 30em ;
+margin-right: 30em ;
+align-content: center;*/	
+/*min-width: 300px;*/
+/*color: black;
 padding-left: 10px;
-color: black; 
+color: black; */
 }
 
 .form2 ul text-align: {
 
 text-align: right;
+}
+
+.form2 .btn {
+	align-content: center;
+	margin-right: 300px;
+
 }
