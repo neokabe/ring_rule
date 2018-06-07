@@ -8,7 +8,15 @@
 
 
 		<center><div class="container">
-				<h1>Wecome to Creatorio </h1>
+				<?php
+			if (isset($_SESSION['u_id'])) {
+				 echo "<centre><h2> Welcome <h2></centre>";
+				echo $_SESSION['u_first'] ; 
+			} else{
+				echo "<h1>
+				Wecome to Creatorio </h1>";
+			}
+		?>
 
 			<div class="slider-outer">
 
