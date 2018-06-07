@@ -9,6 +9,8 @@
 .form2 input{
 min-width: 400px;
 color: black;
+padding-left: 10px;
+color: black; 
 }
 
 .form2 ul text-align: {
