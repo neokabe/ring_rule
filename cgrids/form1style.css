@@ -60,7 +60,7 @@ body{
 
 			}
 				nav ul li a{
-					color: white;
+					color: black;
 				}
 
 			.reg_mssg{
@@ -79,7 +79,7 @@ body{
 
 						list-style-type: none;
 					}
-					.form1 input{
+					.form1 ul input{
 						padding: 10px;
 						color: black;
 						min-width: 400px;
