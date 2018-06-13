@@ -5,13 +5,13 @@
 		
 		<link rel="stylesheet" type="text/css" href="cgrids/main-slide.css">
 
-
+		
 
 		<center><div class="container">
 				<?php
 			if (isset($_SESSION['u_id'])) {
-				 echo "<centre><h2> Welcome <h2></centre>";
-				echo $_SESSION['u_first'] ; 
+				 echo "<centre><h2> Welcome <h2></centre>".$_SESSION['u_first'];
+				echo "<br><br><button class= btn .btn-primary> <a href='mypage.php'> My Profile</a></button>" ; 
 			} else{
 				echo "<h1>
 				Wecome to Creatorio </h1>";
