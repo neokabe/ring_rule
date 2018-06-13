@@ -38,8 +38,19 @@
 						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						      <ul class="nav navbar-nav">
 						        <!-- <li class="active"><a href="#">All <span class="sr-only">(current)</span></a></li> -->
-						        <li><a href="Register.php"> Register</a></li>
-								<li><a href="Logon.php">Sign in</a></li>
+						        <?php 
+
+						        // if user is logged in show profile link instead of register and logon
+
+						        if (isset($_SESSION['u_id'])) { 
+						        	echo "<li><a href='profile.php'>My profile </a></li>";
+
+
+						        } else{ echo "<li><a href='Register.php'> Register</a></li>
+								<li><a href='Logon.php'>Sign in</a></li>
+									";}
+						   
+								?>
 								<li><a href="about.php">About</a></li>
 								<li><a href="contact_us.php">Contact</a></li>
 

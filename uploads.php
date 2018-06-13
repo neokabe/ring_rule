@@ -1,7 +1,7 @@
 <?php
 
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['submitpro'])) {
 	$file = $_FILES['file'];
 
 
