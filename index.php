@@ -9,6 +9,40 @@
 
 		<center><div class="container">
 				<?php
+
+				include 'includes/dhb.inc.php';
+			// show profile image of whoever is logged in or default img
+			$sql = "SELECT * FROM user";
+			$result = mysqli_query($conn, $sql);
+
+			if (mysqli_num_rows($result) > 0 ) {
+				while ($row = msqli_fetch_assoc($result)){
+					// query user database
+						$id = $row['id'];
+						//set user table 'id' equal to profile img table 'userid'
+						$sql ="SELECT * FROM profileimg WHERE userid= '$id'";
+						$resultImg = mysqli_query($conn, $sqlImg);
+
+						while ($rowImg = mysqlifetch_assoc($resultImg)) {
+							// query profile image database
+							echo "<div class = 'userprofile'>";
+							if ($rowImg['status'] ==0) {
+								// if status field is 0 then user has a profile image
+								echo "<img src= 'uploads/profile".$id.".jpg'>";
+							} else {
+								// if status field isn't 0 then user hasn't uploaded a profile img so display default
+								echo "<img src= 'uploads/profiledefault.jpg'>";
+							}
+								//show user name
+								echo $row['username'];
+							echo "</div>";
+						}
+				}
+			} else{
+				echo " no users yet";
+			}
+
+
 			if (isset($_SESSION['u_id'])) {
 				 echo "<centre><h2> Welcome <h2></centre>".$_SESSION['u_first'];
 				echo "<br><br><button class= btn .btn-primary> <a href='mypage.php'> My Profile</a></button>" ; 
