@@ -26,7 +26,7 @@ if (isset($_POST['submitpro'])) {
 
 		if ($fileError === 0) {
 			if (!$fileSize < 100000) {
-				echo "your file exceeds the maximum sise";
+				echo "your file exceeds the maximum size";
 			exit();
 			} else{
 			$fileNameNew = uniqid('', true).".".$fileActualExt;

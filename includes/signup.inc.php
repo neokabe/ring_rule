@@ -85,6 +85,6 @@ if (isset($_POST['submit'])) {
 }
 
 else{
-	header("Location: ../Register.php?signup=error4");
+	header("Location: ../Register.php?signup=error");
 	exit();
 }
