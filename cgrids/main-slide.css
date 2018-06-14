@@ -81,6 +81,14 @@ h1{
 	text-align:center;
 }
 
+.userprofile{
+
+	float: left;
+	width: 100px ; 
+	height: 100px;
+
+}
+
 .container{
 	font-family: Arial, sans-serif;
 	font-size: 14px;
