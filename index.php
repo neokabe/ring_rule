@@ -16,17 +16,17 @@
 			$result = mysqli_query($conn, $sql);
 
 			if (mysqli_num_rows($result) > 0 ) {
-				while ($row = msqli_fetch_assoc($result)){
+				while ($row = mysqli_fetch_assoc($result)){
 					// query user database
 						$id = $row['id'];
 						//set user table 'id' equal to profile img table 'userid'
 						$sql ="SELECT * FROM profileimg WHERE userid= '$id'";
 						$resultImg = mysqli_query($conn, $sqlImg);
 
-						while ($rowImg = mysqlifetch_assoc($resultImg)) {
+						while ($rowImg = mysqli_fetch_assoc($resultImg)) {
 							// query profile image database
 							echo "<div class = 'userprofile'>";
-							if ($rowImg['status'] ==0) {
+							if ($rowImg['status'] == 0) {
 								// if status field is 0 then user has a profile image
 								echo "<img src= 'uploads/profile".$id.".jpg'>";
 							} else {
