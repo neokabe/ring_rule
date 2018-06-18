@@ -12,15 +12,15 @@
 
 				include 'includes/dhb.inc.php';
 			// show profile image of whoever is logged in or default img
-			$sql = "SELECT * FROM user";
+			$sql = "SELECT * FROM users";
 			$result = mysqli_query($conn, $sql);
 
 			if (mysqli_num_rows($result) > 0 ) {
 				while ($row = mysqli_fetch_assoc($result)){
 					// query user database
-						$id = $row['id'];
+						$id = $row['user_id'];
 						//set user table 'id' equal to profile img table 'userid'
-						$sql ="SELECT * FROM profileimg WHERE userid= '$id'";
+						$sqlImg ="SELECT * FROM profileimg WHERE userid= '$id'";
 						$resultImg = mysqli_query($conn, $sqlImg);
 
 						while ($rowImg = mysqli_fetch_assoc($resultImg)) {
