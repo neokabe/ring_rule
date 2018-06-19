@@ -69,8 +69,34 @@ if (isset($_POST['submit'])) {
 							mysqli_stmt_bind_param($stmt, "sssss", $first, $last, $email, $uid, $hashedPwd);
 							mysqli_stmt_execute($stmt);
 
-							header("Location: ../index.php?signup=success");
+							//***** create profile using user table info ******
+							$sql = "SELECT * FROM users WHERE user_uid=? AND user_first=?;";
+							$stmt= mysqli_stmt_init($conn);
+
+							mysqli_stmt_prepare($stmt, $sql);
+							mysqli_stmt_bind_param($stmt, "ss", $uid, $first);
+							mysqli_stmt_execute($stmt);
+
+							$result = mysqli_stmt_get_result($stmt);
+
+							while ($row = mysqli_fetch_assoc($result)) {
+									$id = $row['user_id'];
+									$stat = 1;
+								$sqlpro = "INSERT INTO profileimg (userid, status) 
+										VALUES (?, ?);";
+								mysqli_stmt_prepare($stmt, $sqlpro);
+								mysqli_stmt_bind_param($stmt, "ss", $id, $stat);
+								mysqli_stmt_execute($stmt);
+										
+
+								//go back to home page on sucess
+								header("Location: ../index.php?signup=success");
 							exit();
+							//***** end of new code ******
+								}
+
+
+							// header used to be here*
 						}
 
 				}
