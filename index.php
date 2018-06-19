@@ -9,9 +9,12 @@
 
 		<center><div class="container">
 				<?php
+			include 'includes/dhb.inc.php';
+			
 
-				include 'includes/dhb.inc.php';
-			// show profile image of whoever is logged in or default img
+			if (isset($_SESSION['u_id'])) {
+
+				// show profile image of whoever is logged in or default img
 			$sql = "SELECT * FROM users";
 			$result = mysqli_query($conn, $sql);
 
@@ -31,7 +34,7 @@
 								echo "<img src= 'uploads/profile".$id.".jpg'>";
 							} else {
 								// if status field isn't 0 then user hasn't uploaded a profile img so display default
-								echo "<img src= 'uploads/profiledefault.jpg'>";
+								echo "<img src= 'uploads/profiledefault.png'>";
 							}
 								//show user name
 								echo $row['username'];
@@ -41,11 +44,10 @@
 			} else{
 				echo " no users yet";
 			}
-
-
-			if (isset($_SESSION['u_id'])) {
+				
+				
 				 echo "<centre><h2> Welcome <h2></centre>".$_SESSION['u_first'];
-				echo "<br><br><button class= btn .btn-primary> <a href='mypage.php'> My Profile</a></button>" ; 
+				  echo "<br><br><button name= 'bodybtn' type='button' class= btn .btn-primary> <a href='mypage.php'> My Folio</a></button>";
 			} else{
 				echo "<h1>
 				Wecome to Creatorio </h1>";
