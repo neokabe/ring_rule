@@ -31,7 +31,8 @@
 							echo "<div class = 'userprofile'>";
 							if ($rowImg['status'] == 0) {
 								// if status field is 0 then user has a profile image
-								echo "<img src= 'uploads/profile".$id.".jpg'>";
+								echo "<img src= 'uploads/profile".$id.".jpg'?".mt_rand().">";
+								// echo "<img src= 'uploads/profile".$id.".jpg'>";
 							} else {
 								// if status field isn't 0 then user hasn't uploaded a profile img so display default
 								echo "<img src= 'uploads/profiledefault.png'>";
