@@ -38,7 +38,7 @@
 								echo "<img src= 'uploads/profiledefault.png'>";
 							}
 								//show user name
-								echo $row['username'];
+								echo $row['user_uid'];
 							echo "</div>";
 						}
 				}
