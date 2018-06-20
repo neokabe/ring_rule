@@ -1,10 +1,10 @@
 .userprofile {
 	
-	width: 400px;
+	width: 160px;
+	height: 185px;
 	padding: 10px;
-	margin: 10px;
+	margin: 1%;
 	overflow: hidden;
-
 
 
 
@@ -13,7 +13,7 @@
 .userprofile img{
 	
 	float: left;
-	width: 400px;
+	width: 150px;
 	
 }
 
