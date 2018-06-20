@@ -1,0 +1,25 @@
+.userprofile {
+	
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
+	overflow: hidden;
+
+
+
+
+}
+
+.userprofile img{
+	
+	float: left;
+	width: 400px;
+	
+}
+
+.userprofile div{
+	
+	float: left;
+	
+	
+}

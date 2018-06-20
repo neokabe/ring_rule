@@ -5,6 +5,8 @@
 		
 		<link rel="stylesheet" type="text/css" href="cgrids/main-slide.css">
 
+		<link rel="stylesheet" type="text/css" href="cgrids/main-profile.css">
+
 		
 
 		<center><div class="container">
@@ -38,7 +40,7 @@
 								echo "<img src= 'uploads/profiledefault.png'>";
 							}
 								//show user name
-								echo $row['user_uid'];
+								echo "<p>".$row['user_uid']."</p>";
 							echo "</div>";
 						}
 				}
