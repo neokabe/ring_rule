@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once 'includes/dhb.php';
+include_once 'includes/dhb.inc.php';
 $id = $_SESSION['u_id'];
 
 if (isset($_POST['submitpro'])) {
