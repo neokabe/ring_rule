@@ -32,8 +32,13 @@
 							// query profile image database
 							echo "<div class = 'userprofile'>";
 							if ($rowImg['status'] == 0) {
+								$sessionid= $_SESSION['u_id'];
+								$filename = "uploads/profile".$sessionid."*";
+								$fileinfo = glob($filename);
+								$fileext = explode(".", $fileinfo[0]);
+								$fileactualext = $fileext[1];
 								// if status field is 0 then user has a profile image
-								echo "<img src= 'uploads/profile".$id.".jpg'?".mt_rand().">";
+								echo "<img src= 'uploads/profile".$id.".".$fileactualext.""?"".mt_rand().">'";
 								// echo "<img src= 'uploads/profile".$id.".jpg'>";
 							} else {
 								// if status field isn't 0 then user hasn't uploaded a profile img so display default
