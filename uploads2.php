@@ -29,9 +29,23 @@ if (isset($_POST['submitpro'])) {
  				move_uploaded_file($fileTmpName, $fileDestination);
  				// update profile table upload status
  			$sql = "UPDATE profileimg SET status=0 WHERE userid ='$id;";
- 				$result = mysqli_query($conn, $sql);
+
+ 				// prepared statement
+ 				$stmt= mysqli_stmt_init($conn);
+
+ 				if (!mysqli_stmt_prepare($stmt, $sql)) {
+	 		header("Location: ../profile.php?upload=error");
+	 		exit();
+	 			} else{
+	 				$stat = 1;
+	 			mysqli_stmt_bind_param($stmt, "s", $stat); 
+	 			mysqli_stmt_execute($stmt);
+
+
+ 				// $result = mysqli_query($conn, $sql);
  				
  				header("Location: profile.php?upload?success");
+ 					}
  			} else{
  				echo "Your file size is too large";
  			}
