@@ -17,7 +17,10 @@
 			if (isset($_SESSION['u_id'])) {
 
 				// show profile image of whoever is logged in or default img
-			$sql = "SELECT * FROM users";
+			$sessionid= $_SESSION['u_id'];
+			$first = $_SESSION['u_first'];
+			$sql = "SELECT * FROM users WHERE user_id= '$sessionid' AND user_first= '$first';";
+			//$sql = "SELECT * FROM users";
 			$result = mysqli_query($conn, $sql);
 
 			if (mysqli_num_rows($result) > 0 ) {
@@ -31,7 +34,7 @@
 						while ($rowImg = mysqli_fetch_assoc($resultImg)) {
 							// query profile image database
 							echo "<div class = 'userprofile'>";
-							if ($rowImg['status'] == 0) {
+							if ($rowImg['status'] == 0 && $_SESSION['u_id'] == $id) {
 								$sessionid= $_SESSION['u_id'];
 								$filename = "uploads/profile".$sessionid."*";
 								$fileinfo = glob($filename);
