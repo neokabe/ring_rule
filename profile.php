@@ -28,7 +28,7 @@ echo '<div class= "left-panel">
 <div class="right-panel">
 	<h4>settings</h4>
 
-	<form action="includes/deleteprofile.inc.php" method="POST" 
+	<form action="includes/deleteprofile.inc.php" method="POST"> 
 		<button type="submit" name="delpro" class="btn btn-success" > Delete profile image</button> </form>
 
 
