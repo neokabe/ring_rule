@@ -33,7 +33,7 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 
  				// $result = mysqli_query($conn, $sql);
  				// $result;
- 			header("Location: profile.php?delete?=success"); 
+ 			header("Location: ../profile.php?delete?=success"); 
  					} // end of preparede statement
  			}
 
