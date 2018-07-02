@@ -89,6 +89,11 @@ h1{
 
 }
 
+button .btn {
+	float: left;
+	margin-right: 200px
+}
+
 .container{
 	font-family: Arial, sans-serif;
 	font-size: 14px;
