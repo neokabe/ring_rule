@@ -69,11 +69,11 @@
 						          </ul>
 						        </li>
 						      </ul>
-						      <form class="navbar-form navbar-left">
+						      <form action="search.php" class="navbar-form navbar-left" method="POST">
 						        <div class="form-group">
-						          <input type="text" class="form-control" placeholder="Search">
+						          <input type="text" class="form-control" placeholder="Search" name="Search">
 						        </div>
-						        <button type="submit" class="btn btn-default">Search</button>
+						        <button type="submit" class="btn btn-default" name="submit-search">Search</button>
 						      </form>
 						      <?php
 						      	//Display Logout buttion if user is logged in
