@@ -82,10 +82,10 @@
 					<button class= "btn btn-success" type="submit" name="submit">Logout</button>
 				</form>';
 					} else {
-					//Display sign in form is no user (no SESSION) is logged in
+					//Display sign in form if no user (no SESSION) is logged in
 					echo '<class =navbar-form navbar-left form action="includes/login.inc.php" method="POST"> 
 					<input type="text" name="uid" placeholder="Username/Email">
-					<input type="password" name="pwd" placeholder="password">
+					<input type="password" name="pwd" placeholder="password" required autocomplete="off" required minlength="6">
 					<button class ="btn btn-success" type ="submit" name="submit">Login</button>
 					</form>';
 					
