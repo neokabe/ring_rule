@@ -12,21 +12,31 @@ include 'includes/dhb.inc.php';
 // check button is clicked
 
 if (isset($_POST['submit-search'])) {
-
-
+	$search = mysqli_real_escape_string($conn, $_POST['search']);
+ $Search = $_POST('Search');
 	//check if search field is empty 
 
-	if (condition) {
-		echo 'empty error'
+	if (empty($Search)) {
+		exit();
 	} else {
 		// check for gaps 
 		if (condition) {
 			# code...
 		} else{
+			// check if title is keyword conained in search string
+			 $sql = "SELECT * FROM article WHERE a_title LIKE ? OR a_text LIKE ? OR a_author LIKE ? OR a_date LIKE ?;";
+
+			// **prepared statement version of search field**
+			 $stmt= mysqli_stmt_init($conn);
+			 $item =$_POST['search'];
+			 $binditem = '%'.$search.'%';
 			//prepared statment
 				// check for sql injection
-			if (condition) {
-				# code...
+			if (!mysqli_stmt_prepare($stmt, $sql)) {
+				header("Location: ../header.php?search=error");
+	 	 	exit();
+			} else{
+
 			}
 		}
 		

@@ -19,7 +19,7 @@
 				    <label for="password"  >Password</label>
 				    <input id="password" name="pwd" type="password" placeholder="Password" required autocomplete="off" required minlength="6"></p>
 				    
-				    <input type="checkbox" name="remember" id="remember" >
+				    <input type="checkbox" name="remember"value="get_user" id="remember" >
 				    <label for="remember">
 				      <i class="octicon octicon-check">Remember me?</i> 
 				    </label><br>
