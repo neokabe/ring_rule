@@ -19,7 +19,20 @@ if (isset($_POST['submit-search'])) {
 	if (empty($search)) {
 		exit();
 	} else {
-		
+				
+
+			// union sql query
+			$usql = "SELECT 'users' OriginatingTable, id, user_uid FROM users WHERE user_uid LIKE ? OR user_first LIKE ? 
+			union all 
+			SELECT 'Articles',userid, username FROM article WHERE userid LIKE ? OR username LIKE ? OR a_title LIKE ?
+			union all
+			SELECT 'Images',userid, username FROM images WHERE  userid LIKE ? OR username LIKE ? OR img_title LIKE ?
+			union all 
+			SELECT 'Media', userid, username FROM audiovis WHERE WHERE userid LIKE ? OR username LIKE ? OR media_desc LIKE ?
+
+
+			"; 
+
 			// check if title is keyword conained in search string
 			 $sql = "SELECT * FROM article WHERE a_title LIKE ? OR a_text LIKE ? OR a_author LIKE ? OR a_date LIKE ?;";
 
