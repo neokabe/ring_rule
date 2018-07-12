@@ -33,7 +33,7 @@
 					
 					<?php
 					// save username in cookie and/or if session is set and cookie is remberd then display usaername in inputbox.
-						$var =
+						$var =;
 					?>
 
 

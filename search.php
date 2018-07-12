@@ -1,7 +1,7 @@
 <?php
 
 include 'header.php'
-include 'includes/dhb.inc.php';
+include 'includes/dhb.inc.php'
 
 ?>
 
@@ -43,7 +43,7 @@ if (isset($_POST['submit-search'])) {
 			//prepared statment
 				// check for sql injection
 			if (!mysqli_stmt_prepare($stmt, $sql)) {
-				header("Location: ../header.php?search=error");
+				header("Location: ../index.php?search=error");
 	 	 	exit();
 			} else{
 			mysqli_stmt_bind_param($stmt, "ssss", $binditem, $binditem, $binditem, $binditem);
