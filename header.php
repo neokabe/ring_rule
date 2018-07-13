@@ -78,7 +78,7 @@
 						      <?php
 						      	//Display Logout buttion if user is logged in
 						      if (isset($_SESSION['u_id'])) {
-					   echo '<form action="includes/logout.inc.php" method="POST"> 
+					   echo '<form class="form-inline" action="includes/logout.inc.php" method="POST"> 
 					<button class= "btn btn-success" type="submit" name="submit">Logout</button>
 				</form>';
 					} else {

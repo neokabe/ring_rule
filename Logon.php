@@ -25,7 +25,7 @@
 				    </label><br>
 				      
 				        
-				    <button class="btn btn-success" name="submit" type="submit">Sign in</button>
+				    <button class="btn btn-success" name="submit" type="submit2">Sign in</button>
 				    
 				  <!-- </fieldset> -->
 				  

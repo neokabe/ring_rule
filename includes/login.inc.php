@@ -2,7 +2,7 @@
 
 session_start();
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['submit2'])) {
 	include_once 'dbh.inc.php';
 
 	$uid = $_POST['uid'];
