@@ -34,7 +34,7 @@ if (isset($_POST['submit-search'])) {
 			"; 
 
 			// check if title is keyword conained in search string
-			 $sql = "SELECT * FROM article WHERE a_title LIKE ? OR a_text LIKE ? OR a_author LIKE ? OR a_date LIKE ?;";
+			 $sql = "SELECT * FROM article WHERE a_title LIKE ? OR a_text LIKE ? OR username LIKE ? OR a_date LIKE ?;";
 
 			// **prepared statement version of search field**
 			 $stmt= mysqli_stmt_init($conn);
@@ -63,7 +63,7 @@ if (isset($_POST['submit-search'])) {
 			  	<h3>".$row['a_title']."</h3>
 			  	<p>".$row['a_text']."</p>
 			  	<p>".$row['a_date']."</p>
-			  	<p>".$row['a_author']."</p>
+			  	<p>".$row['username']."</p>
 			  	</div></a>";
 			  	}
 	 	 	} else {
@@ -73,7 +73,7 @@ if (isset($_POST['submit-search'])) {
 				foreach($searchbit as $value) {
 					$bindbit= $searchbit($value);
 
-				$sql = "SELECT * FROM article WHERE a_title LIKE ? OR a_text LIKE ? OR a_author LIKE ? OR a_date LIKE ?;";
+				$sql = "SELECT * FROM article WHERE a_title LIKE ? OR a_text LIKE ? OR username LIKE ? OR a_date LIKE ?;";
 				mysqli_stmt_bind_param($stmt, "ssss", $bindbit, $bindbit, $bindbit,$bindbit);
 					mysqli_stmt_execute($stmt);
 
@@ -85,7 +85,7 @@ if (isset($_POST['submit-search'])) {
 			  	<h3>".$row['a_title']."</h3>
 			  	<p>".$row['a_text']."</p>
 			  	<p>".$row['a_date']."</p>
-			  	<p>".$row['a_author']."</p>
+			  	<p>".$row['username']."</p>
 			  	</div></a>";
 			  				}
 	 	 		} else {
