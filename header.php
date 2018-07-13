@@ -86,7 +86,7 @@
 					echo '<class =navbar-form navbar-left form action="includes/login.inc.php" method="POST"> 
 					<input type="text" name="uid" placeholder="Username/Email">
 					<input type="password" name="pwd" placeholder="password" required autocomplete="off" required minlength="6">
-					<button class="btn btn-success" type ="submit" name="submit">Login</button>
+					<button class="btn btn-success" type ="submit" name="submit2">Login</button>
 					</form>';
 					
 
