@@ -83,7 +83,8 @@
 				</form>';
 					} else {
 					//Display sign in form if no user (no SESSION) is logged in
-					echo '<class =navbar-form navbar-left form action="includes/login.inc.php" method="POST"> 
+					echo ' <style type = "text/css"> .navbar-form{
+					color: black; } </style> <form class =navbar-form navbar-left form action="includes/login.inc.php" method="POST"> 
 					<input type="text" name="uid" placeholder="Username/Email">
 					<input type="password" name="pwd" placeholder="password" required autocomplete="off" required minlength="6">
 					<button class="btn btn-success" type ="submit" name="submit2">Login</button>
