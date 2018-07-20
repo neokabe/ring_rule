@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	background-color: #111;
+	
+	color: white;
+}
+
+main{
+background-color: #111;
+
+padding: 10px;
+color: black;
+min-width: 400px;
+min-height: 490px;
+
+}
+
+.contact-form{
+list-style-type: none;
+color: black;
+}
+
+.contact-form input{
+	color: black;
+	padding: 10px;
+	min-width: 300px;
+	min-height: 40px;
+	background: white;
+}
+
+
+main button{
+	width: 100px;
+	height: 30px
+	
+	margin-right: 300px;
+	align-content: center;
+}
+main textarea {
+width: 300px;
+height: 200px;
+margin: 10px;
+padding: 2px;
+}
